@@ -1,0 +1,11 @@
+graph 1 0.75 4.5
+node C5 0.375 1.25 0.75 0.5 C5 solid ellipse black lightgrey
+node C1 0.375 0.25 0.75 0.5 C1 solid ellipse black lightgrey
+node C2 0.375 4.25 0.75 0.5 C2 solid ellipse black lightgrey
+node C3 0.375 3.25 0.75 0.5 C3 solid ellipse black lightgrey
+node C4 0.375 2.25 0.75 0.5 C4 solid ellipse black lightgrey
+edge C5 C1 4 0.375 0.99579 0.375 0.88865 0.375 0.7599 0.375 0.64045 solid black
+edge C2 C3 4 0.375 3.9958 0.375 3.8886 0.375 3.7599 0.375 3.6405 solid black
+edge C3 C4 4 0.375 2.9958 0.375 2.8886 0.375 2.7599 0.375 2.6405 solid black
+edge C4 C5 4 0.375 1.9958 0.375 1.8886 0.375 1.7599 0.375 1.6405 solid black
+stop

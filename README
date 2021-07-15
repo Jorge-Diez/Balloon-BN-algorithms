@@ -1,0 +1,12 @@
+
+testing.m  overall main script for generating simulations and testing methods
+           e.g. to run simulation #3 from the unix terminal:
+              nohup echo "testrun=$t; testing" | matlab -nodisplay -nodesktop >& LOG$t &
+
+nma_rsns.m  DCM-for-FMRI forward model - wrapper script for Wooly's NMA C++ program
+
+net_measures.m   apply lots of network estimation methods to timeseries data (null or real)
+
+use_null.m   converts raw network matrix estimations into zstats using nulls
+
+

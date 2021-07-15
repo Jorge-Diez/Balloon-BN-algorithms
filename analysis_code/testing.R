@@ -1,0 +1,2 @@
+library(dbnR)
+data(motor)

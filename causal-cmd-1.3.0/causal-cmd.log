@@ -1,0 +1,113 @@
+2021-05-05 19:10:11 INFO  org.reflections.Reflections:229 - Reflections took 95 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:10:11 INFO  org.reflections.Reflections:229 - Reflections took 12 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:10:11 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:10:12 ERROR edu.cmu.tetrad.latest.LatestClient:105 - Could not contact server for latest version
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:224)
+	at com.google.gson.Gson.fromJson(Gson.java:887)
+	at com.google.gson.Gson.fromJson(Gson.java:852)
+	at com.google.gson.Gson.fromJson(Gson.java:801)
+	at com.google.gson.Gson.fromJson(Gson.java:773)
+	at edu.cmu.tetrad.latest.LatestClient.checkLatest(LatestClient.java:89)
+	at edu.pitt.dbmi.causal.cmd.CausalCmdApplication.main(CausalCmdApplication.java:97)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213)
+	... 6 more
+2021-05-05 19:10:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject26bold.csv.
+2021-05-05 19:10:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject26bold.csv.
+2021-05-05 19:10:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 199 cases and 5 variables.
+2021-05-05 19:10:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject26bold.csv.
+2021-05-05 19:10:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject26bold.csv.
+2021-05-05 19:10:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject26bold.csv contains 199 cases, 5 variables.
+2021-05-05 19:12:11 INFO  org.reflections.Reflections:229 - Reflections took 72 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:12:11 INFO  org.reflections.Reflections:229 - Reflections took 21 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:12:11 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:12:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject26bold.csv.
+2021-05-05 19:12:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject26bold.csv.
+2021-05-05 19:12:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 200 cases and 5 variables.
+2021-05-05 19:12:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject26bold.csv.
+2021-05-05 19:12:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject26bold.csv.
+2021-05-05 19:12:12 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject26bold.csv contains 200 cases, 5 variables.
+2021-05-05 19:13:10 INFO  org.reflections.Reflections:229 - Reflections took 98 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:13:10 INFO  org.reflections.Reflections:229 - Reflections took 10 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:13:10 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:14:15 INFO  org.reflections.Reflections:229 - Reflections took 73 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:14:15 INFO  org.reflections.Reflections:229 - Reflections took 14 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:14:16 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:14:30 INFO  org.reflections.Reflections:229 - Reflections took 107 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:14:30 INFO  org.reflections.Reflections:229 - Reflections took 10 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:14:30 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:14:32 ERROR edu.cmu.tetrad.latest.LatestClient:105 - Could not contact server for latest version
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:224)
+	at com.google.gson.Gson.fromJson(Gson.java:887)
+	at com.google.gson.Gson.fromJson(Gson.java:852)
+	at com.google.gson.Gson.fromJson(Gson.java:801)
+	at com.google.gson.Gson.fromJson(Gson.java:773)
+	at edu.cmu.tetrad.latest.LatestClient.checkLatest(LatestClient.java:89)
+	at edu.pitt.dbmi.causal.cmd.CausalCmdApplication.main(CausalCmdApplication.java:97)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213)
+	... 6 more
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject26bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject26bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 199 cases and 5 variables.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject29bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject29bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 199 cases and 5 variables.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject6bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject6bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 199 cases and 5 variables.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject26bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject26bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject26bold.csv contains 199 cases, 5 variables.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject29bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject29bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject29bold.csv contains 199 cases, 5 variables.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject6bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject6bold.csv.
+2021-05-05 19:14:32 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject6bold.csv contains 199 cases, 5 variables.
+2021-05-05 19:15:11 INFO  org.reflections.Reflections:229 - Reflections took 72 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:15:11 INFO  org.reflections.Reflections:229 - Reflections took 12 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:15:11 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:15:23 INFO  org.reflections.Reflections:229 - Reflections took 73 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:15:23 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:15:23 INFO  org.reflections.Reflections:229 - Reflections took 11 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject26bold.csv.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject26bold.csv.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 200 cases and 5 variables.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject29bold.csv.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject29bold.csv.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 200 cases and 5 variables.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file subject6bold.csv.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file subject6bold.csv.
+2021-05-05 19:15:23 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 200 cases and 5 variables.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject26bold.csv.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject26bold.csv.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject26bold.csv contains 200 cases, 5 variables.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject29bold.csv.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject29bold.csv.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject29bold.csv contains 200 cases, 5 variables.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file subject6bold.csv.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file subject6bold.csv.
+2021-05-05 19:15:24 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File subject6bold.csv contains 200 cases, 5 variables.
+2021-05-05 19:16:09 INFO  org.reflections.Reflections:229 - Reflections took 73 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:16:09 INFO  org.reflections.Reflections:229 - Reflections took 12 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:16:09 INFO  org.reflections.Reflections:229 - Reflections took 14 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:16:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file bold_data.csv.
+2021-05-05 19:16:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file bold_data.csv.
+2021-05-05 19:16:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 10000 cases and 5 variables.
+2021-05-05 19:16:09 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file bold_data.csv.
+2021-05-05 19:16:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file bold_data.csv.
+2021-05-05 19:16:10 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File bold_data.csv contains 10000 cases, 5 variables.
+2021-05-05 19:16:17 INFO  org.reflections.Reflections:229 - Reflections took 76 ms to scan 1 urls, producing 17 keys and 266 values 
+2021-05-05 19:16:17 INFO  org.reflections.Reflections:229 - Reflections took 10 ms to scan 1 urls, producing 7 keys and 41 values 
+2021-05-05 19:16:17 INFO  org.reflections.Reflections:229 - Reflections took 14 ms to scan 1 urls, producing 5 keys and 34 values 
+2021-05-05 19:16:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - Start data validation on file bold_data.csv.
+2021-05-05 19:16:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:114 - End data validation on file bold_data.csv.
+2021-05-05 19:16:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataValidations:78 - There are 10000 cases and 5 variables.
+2021-05-05 19:16:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Start reading in file bold_data.csv.
+2021-05-05 19:16:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - Finished reading in file bold_data.csv.
+2021-05-05 19:16:18 INFO  edu.pitt.dbmi.causal.cmd.data.DataFiles:114 - File bold_data.csv contains 10000 cases, 5 variables.

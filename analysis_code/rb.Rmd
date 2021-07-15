@@ -1,0 +1,27 @@
+---
+title: "Redes bayesianas"
+author: "Alicia Germán Bellod"
+date: "18/6/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) #this allows us to knitr
+
+options(tinytex.verbose = TRUE)
+```
+
+
+```{r libraries, message = FALSE}
+library(dbnR)
+data = read.csv("C:/Users/Alicia/Desktop/concatenated_bold.csv", fileEncoding="UTF-8", sep = ",", dec = ",", header = FALSE, stringsAsFactors=FALSE) 
+data_num = as.data.frame(apply(data, 2, as.numeric))  #convertimos a variables numericas (porque ahora mismo son characters, no sé pq lo lee como character!!!)
+sapply(data_num, class) #esto es para comprobar q efectivsmente, lo hemos cambiado a numerico
+
+#El autor tenía un set de 3000 instancias y usaba un ratio de 5/6 para su conjunto de entrenamiento
+#Nosotros tenemos 1500, por lo q usaremos un ratio de 4/5 para dicho conjunto, o sea, 1200 instancias se usarán para entrenamiento
+size = 3 #Orden markoviano
+dt_train = data_num[1:1200,]
+dt_val = data_num[1201:1500,]
+net = learn_dbn_struc(dt_train, size)
+```
